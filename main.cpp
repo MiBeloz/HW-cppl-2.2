@@ -14,7 +14,7 @@ int main() {
 
 	print_my_name("Mihail");
 
-	//Функция foo определена и в 'main.cpp' и в 'foo.cpp'.
+	//Ошибка линковки. Функция foo определена и в 'main.cpp' и в 'foo.cpp'.
 	foo(5);
 
 	system("pause > nul");
